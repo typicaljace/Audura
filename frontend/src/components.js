@@ -155,10 +155,16 @@ export const Sidebar = ({ activeSection, setActiveSection }) => {
       {/* Main Navigation */}
       <div className="p-6">
         <div className="flex items-center mb-8">
-          <div className="text-2xl font-bold">
-            <span className="text-[#1DB954]">●</span> Spotify
+          <img
+           src="/assets/logo1.png" // Update this path to your actual logo location
+           alt="Audura Logo"
+           className="w-12 h-12 mr-3" // Adjust size as needed
+          />
+          <div className="text-2xl font-bold text-white">Audura
           </div>
         </div>
+
+        
         
         <nav className="space-y-2">
           <button 
